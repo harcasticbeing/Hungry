@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.HomeFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtQ1"
+        android:text="Question: Who is the developer of this Application?"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"
+        android:padding="2dp"
+        android:textStyle="bold"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtA1"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="Answer: This app is developed by Hardik Sharma.
+He is currently a student of Chandigarh University pursuing his Bachelor of Engineering (CSE)"
+        android:layout_margin="5dp"
+        android:padding="2dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimary"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtQ2"
+        android:text="Question: What was the purpose behind developing this app?"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="2dp"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtA2"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="2dp"
+        android:text="Answer: This app was developed as a project for the Internshala Training Android App Development. "
+        android:layout_margin="5dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimary"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtQ3"
+        android:text="Question: Why isn't my food getting delivered?"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="2dp"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtA3"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="2dp"
+        android:text="Answer: We're very sorry that you aren't getting your food delivered. This is because the restaurants listed in the app are fictional. We hope to add real restaurants in the near future to satisfy your cravings."
+        android:layout_margin="5dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimary"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtQ4"
+        android:text="Question: What can we expect from this app in the future?"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="2dp"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtA4"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="2dp"
+        android:text="Answer: As a developer I can say that you will soon be able to order food from you favourite restaurants. The app will also provide you with exciting discounts so that you won't have to sleep on an empty stomach.  "
+        android:layout_margin="5dp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:weightSum="5"
+    android:layout_height="wrap_content"
+    android:id="@+id/llContent"
+    android:layout_margin="10dp">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3.5"
+        android:text="Name of Restaurant"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:drawableLeft="@drawable/ic_bullet2"
+        android:textStyle="bold"
+        android:id="@+id/txtRestaurantName"
+        android:padding="5dp"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:text="27/02/19999"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:id="@+id/txtOrderData"
+        android:padding="8dp"/>
+
+</LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llContent"
+        android:id="@+id/recyclerChild"
+        android:padding="10dp"/>
+</RelativeLayout>
